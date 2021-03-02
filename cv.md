@@ -26,3 +26,34 @@
 | Git                  | Novice (but I know, that during the course my level will be increased)        |
 | HTML,CSS             | Novice (but I know, that during the course my level will be highly increased) |
 | JavaScript           | Novice (But I know, that during the course my level will be highly increased) |
+
+### **My code example (finding GCD)**
+
+     function mygcd(x,y){
+    while (y != 0) {
+        if (x > y)
+            x = x - y;
+        else
+            y = y - x;
+        }
+        return x;
+    }
+
+### **Job**
+
+---
+
+_I hope, soon something interesting will appear here..._
+
+---
+
+### **Education**
+
+1. Bachelory degree - BSU, faculty of radiophysics and computer technolories, cybersecurity (2019-2023)
+2. Introduction to C++ (2020) (EPAM)
+
+### **English**
+
+According to EPAM Systems's inner tests (24.02.2021) :
+
+> B2 (Upper-Intermediate)

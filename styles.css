@@ -1,0 +1,98 @@
+table {
+  width: 700px; /* Ширина таблицы */
+  background: #fffffb; /* Цвет фона нечетных строк */
+  border: 1px solid #000000; /* Рамка вокруг таблицы */
+  border-collapse: collapse;
+}
+TD,
+TH {
+  padding: 5px;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000; /* Поля вокруг содержимого ячейки */
+}
+TD {
+  text-align: left; /* Выравнивание по центру */
+  /* border-bottom: 1px solid #ffffff; /* Линия внизу ячейки */
+}
+TH {
+  background: #ffffff; /* Цвет фона */
+}
+.even {
+  background: #f2f7fc; /* Цвет фона четных строк */
+}
+.la {
+  text-align: left; /* Выравнивание по левому краю */
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name {
+  font-size: 150%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #000000;
+}
+pre {
+  background-color: whitesmoke;
+}
+.code1 {
+  background-color: rgb(246, 248, 244);
+}
+div
+{
+  
+}
+ .top {
+	margin-right: 10px;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+ 	width: 500px;
+  	height: auto;}
+.top2
+{
+  padding: 0px;
+  width: auto; 
+  height: auto;
+  padding: 5px; 
+  float: left; 
+  position: absolute; 
+  top:50px; 
+  left: 550px;
+}
+#wrapper {
+  background-color: rgb(255, 255, 255);
+  max-width: 2000px
+}
+blockquote
+{
+  margin: 0;
+  background: #F0F0F1;
+  color: #333334;
+  padding: 10px 15px;
+  position: relative;
+  border-left: 35px solid #DFDEDE;
+  font-family: 'Lato', sans-serif;
+}
+p{}
+ .eng
+{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(0, 0, 0);
+}
+span {}
+.prp
+{
+  color: purple;
+}
+.blue
+{
+  color: blue;
+}
+.red
+{
+  color:rgb(187, 0, 0);
+}
+figcaption{
+  text-align: center;
+}

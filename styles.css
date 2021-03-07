@@ -1,42 +1,52 @@
 table {
+  padding-left: 20px;
   width: 700px; /* Ширина таблицы */
   background: #fffffb; /* Цвет фона нечетных строк */
   border: 1px solid #000000; /* Рамка вокруг таблицы */
   border-collapse: collapse;
+ align-items: center;
 }
+body{
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto;
+  max-width: 1440px;
+}
+h4,h3 {padding-left: 30px;}
 TD,
 TH {
   padding: 5px;
   border-top: 1px solid #000000;
-  border-right: 1px solid #000000; /* Поля вокруг содержимого ячейки */
+  border-right: 1px solid #000000; 
 }
 TD {
-  text-align: left; /* Выравнивание по центру */
-  /* border-bottom: 1px solid #ffffff; /* Линия внизу ячейки */
+  text-align: left; 
+  
 }
 TH {
-  background: #ffffff; /* Цвет фона */
+  background: #ffffff; 
 }
 .even {
-  background: #f2f7fc; /* Цвет фона четных строк */
+  background: #f2f7fc; 
 }
 .la {
-  text-align: left; /* Выравнивание по левому краю */
+  text-align: left; 
 }
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+h1 {}
 .name {
-  font-size: 150%;
+ 
+  padding-left: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #000000;
+  background-color: rgb(221, 221, 221);
+  font-size: xx-large;
 }
 pre {
   background-color: whitesmoke;
 }
 .code1 {
-  background-color: rgb(246, 248, 244);
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
 }
 div
 {
@@ -47,21 +57,50 @@ div
 	margin-left: 5px;
 	margin-top: 10px;
 	margin-bottom: 5px;
- 	width: 500px;
-  	height: auto;}
+ 	width: 900px;
+  	height: auto;
+    display: flex;
+  align-items: center;
+justify-content:center;}
 .top2
 {
-  padding: 0px;
-  width: auto; 
-  height: auto;
-  padding: 5px; 
-  float: left; 
-  position: absolute; 
-  top:50px; 
-  left: 550px;
+  padding-left: 100px;
+  font-size: x-large;
+}
+.tbl
+{
+  padding-left: 30px;
+}
+.gitlog
+{
+margin-left: 210px;
+margin-bottom: auto;
+
+}
+.Rs_footer
+{
+
+margin-left: 175px ;
+margin-top: 6px;
+height: auto;
+margin-bottom: auto;
+}
+.datef
+{
+
+  margin-top: auto;
+  height:20px;
+ margin-left: 170px;
+
+}
+.gitlog,.datef,.Rs_footer
+{
+
+  vertical-align:bottom;
+  display:inline-block;
 }
 #wrapper {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
   max-width: 2000px
 }
 blockquote
@@ -74,7 +113,9 @@ blockquote
   border-left: 35px solid #DFDEDE;
   font-family: 'Lato', sans-serif;
 }
-p{}
+p{
+  padding-left: 30px;
+}
  .eng
 {
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -95,4 +136,23 @@ span {}
 }
 figcaption{
   text-align: center;
+}
+figure
+{
+  margin: auto;
+}
+footer
+{
+  border:outset;
+  border-top-width:4px ;
+  border-top-color: yellow;
+  border-bottom-color:transparent ;
+  border-left-color:transparent ;
+  border-right-color:transparent ;
+  margin-top: 70px;
+  background-color:rgb(240, 240, 240);
+  height: 120px;
+  width: auto;  
+  display: flex;
+  
 }
